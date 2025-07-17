@@ -1,5 +1,5 @@
-password: 123mudar
+// password: 123mudar
 
-tokenAPI: ejtwijasidjasdiaosdjiaoidjaoidaoi204jvnadkfjnakjfnajdfnadnf
+// tokenAPI: ejtwijasidjasdiaosdjiaoidjaoidaoi204jvnadkfjnakjfnajdfnadnf
 
-apiKey: ejatgsduasnavnavvnfidnv
+// apiKey: ejatgsduasnavnavvnfidnv
