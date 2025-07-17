@@ -10,7 +10,7 @@ on:
 
 env:
   IMAGE_REG: ghcr.io
-  IMAGE_REPO: benc-uk/nodejs-demoapp
+  IMAGE_REPO: danilo-marra/nodejs-demoapp
 
 permissions:
   packages: write
