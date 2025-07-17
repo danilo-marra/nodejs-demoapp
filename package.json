@@ -1,0 +1,11 @@
+{
+  "name": "nodejs-demoapp",
+  "version": "1.0.0",
+  "description": "This is a simple Node.js web app using the Express framework and EJS templates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

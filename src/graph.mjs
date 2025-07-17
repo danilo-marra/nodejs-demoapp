@@ -16,7 +16,8 @@ export async function getUserDetails(accessToken) {
     const resp = await axios(graphReq)
     return resp.data
   } catch (err) {
-    console.log(`### 💥 ERROR! Failed to get user details ${err.toString()}`)
+    console.log(`### 💥 ERROR! Failed to get user details ${err.toString()}`)console.log('### 💥 ERROR! Failed to get user details')
+console.log('### 💥 ERROR! Failed to get user photo')
   }
 }
 
