@@ -16,8 +16,8 @@ export async function getUserDetails(accessToken) {
     const resp = await axios(graphReq)
     return resp.data
   } catch (err) {
-    console.log(`### 💥 ERROR! Failed to get user details ${err.toString()}`)console.log('### 💥 ERROR! Failed to get user details')
-console.log('### 💥 ERROR! Failed to get user photo')
+    console.log(`### 💥 ERROR! Failed to get user details ${err.toString()}`)
+    return null
   }
 }
 
@@ -30,8 +30,9 @@ export async function getUserPhoto(accessToken) {
     }
 
     const resp = await axios(graphReq)
-    return new Buffer.from(resp.data, 'binary').toString('base64')
+    return Buffer.from(resp.data, 'binary').toString('base64')
   } catch (err) {
     console.log(`### 💥 ERROR! Failed to get user photo ${err.toString()}`)
+    return null
   }
 }
