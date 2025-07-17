@@ -21,5 +21,9 @@ jobs:
           fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
       - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@v5
+        with:
+          args: >
+            -Dsonar.projectKey=ghscd-2025_ghscd-project
+            -Dsonar.organization=ghscd-2025
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
